@@ -1,0 +1,67 @@
+body * {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.button {
+    border: 1px solid white;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    background-color: hsla(0, 0%, 0%, 0);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 58%, 0.377);
+}
+
+.button-white {
+    color: white;
+}
+
+.button-black {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.button-black:hover {
+    color: black;
+}
+
+.button-border-black {
+    border-color: black;
+    color: black;
+}
+
+.button-6 {
+    color: hsl(164, 31%, 17%);
+    border-color: hsl(164, 31%, 17%);
+}
+
+.text-green {
+    color: hsl(158 100% 23%);
+}
+
+.text-gray {
+    color: gray;
+}
+
+@media (max-width: 767px) {
+        body > .container {
+            max-width: 100%;
+        }
+    
+        body > .px-4 {
+            padding: 0 !important;
+        }
+    }

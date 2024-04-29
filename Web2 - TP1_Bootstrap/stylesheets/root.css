@@ -1,0 +1,20 @@
+/** 
+ *  Ce fichier n'est pas utilisé en ce moment. 
+ *  Il est inclus seulement pour donner un rappel d'utilisation de variables CSS.
+ */
+body {
+    font-family: var(--ff-body);
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-heading);
+    font-weight: 700;
+}
+
+/* TODO: Ajouter autant de styles communs que votre site a besoin en utilisant les variables CSS, etc. */
+
+/** 
+ *  Ce fichier n'est pas utilisé en ce moment. 
+ *  Il est inclus seulement pour donner un rappel d'utilisation de variables CSS.
+ */
